@@ -1,0 +1,32 @@
+:root {
+  --wh-100: #ffff;
+  --wh-200: #fafaff;
+  --wh-400: #edeffb;
+  --bl-800: #11103c;
+  --app-accent: #4258ff;
+  --font-primary: 'Inter', sans-serif;
+  --df-transition: 150ms ease
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 20px;
+  color: var(--bl-800);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+}
